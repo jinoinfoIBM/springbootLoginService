@@ -10,13 +10,21 @@
 		{
 			"phone":9139440649,
 			"pin": 1234,
-			"deviceImage": "assets/phone_2.jpg"
-		}
+			"deviceImage": "assets/phone_2.jpg",
+			"deviceModel": "Galaxy A02s",
+			"deviceSerialNo": "133769867532110",
+			"deviceIccid": "110532768673317521"
+		},
 		"user2":
 		{
            "phone":1234567890,
-           "pin": 1234
-       }
+           "pin": 1234,
+           "deviceImage": "assets/phone_3.jpg",
+		   "deviceModel": "iPhone 8 Renewed",
+		   "deviceSeriadeviceSerialNolNo": "900568723098734",
+		   "deviceIccid": "348903278650094594"
+           
+       },
 	   
 	   "error":
 	   {

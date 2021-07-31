@@ -95,6 +95,10 @@ public class SpringbootLoginServiceApplication {
 		    			responseObj.put("valid", true);
 		    			System.out.println("device image is i"+userObj.get("deviceImage"));
 		    			responseObj.put("deviceImage", userObj.get("deviceImage"));
+		    			responseObj.put("deviceModel", userObj.get("deviceModel"));
+		    			responseObj.put("deviceSerialNo", userObj.get("deviceSerialNo"));
+		    			responseObj.put("deviceIccid", userObj.get("deviceIccid"));
+		    			responseObj.put("phone", userObj.get("phone"));
 		    			authSuccess = true;
 		    			
 		    			return responseObj.toString();
