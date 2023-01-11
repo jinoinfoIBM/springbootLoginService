@@ -84,6 +84,13 @@
     <version>3.1.0</version>
     <scope>provided</scope>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.jboss.as.plugins/jboss-as-maven-plugin -->
+<dependency>
+    <groupId>org.jboss.as.plugins</groupId>
+    <artifactId>jboss-as-maven-plugin</artifactId>
+    <version>7.9.Final</version>
+</dependency>
+
 
 	
 	</dependencies>
