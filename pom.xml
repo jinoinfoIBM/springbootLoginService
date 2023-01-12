@@ -116,7 +116,7 @@
 			<version>7.4.Final</version>
 			<inherited>true</inherited>
 			<configuration>
-				<hostname>localhost</hostname>
+				<hostname>127.0.0.1</hostname>
 				<port>9999</port>
 				<username>admin</username>
 				<password>adminadmin</password>
