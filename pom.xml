@@ -110,20 +110,20 @@
 					</configuration>
 					-->
 			</plugin>
-			
+			<!--
 			<plugin>
 				<groupId>org.wildfly.plugins</groupId>
 				<artifactId>wildfly-maven-plugin</artifactId>
 				<version>1.1.0.Alpha11</version>
 				<configuration>
 					<hostname>localhost</hostname>
-					<port>9999</port>
+					<port>9990</port>
 					<username>admin</username>
 					<password>adminadmin</password>
 					<timeout>50000</timeout>
 				</configuration>
 			</plugin>
-			<!--
+			-->
 			<plugin>
 				<groupId>org.jboss.as.plugins</groupId>
 				<artifactId>jboss-as-maven-plugin</artifactId>
@@ -131,13 +131,13 @@
 				<inherited>true</inherited>
 				<configuration>
 					<hostname>localhost</hostname>
-					<port>9999</port>
+					<port>9990</port>
 					<username>admin</username>
 					<password>adminadmin</password>
 					<timeout>50000</timeout>
 				</configuration>
 			</plugin>
-			-->
+			
 			<!--<plugin>
 	           <groupId>org.wildfly.plugins</groupId>
 	           <artifactId>wildfly-maven-plugin</artifactId>
